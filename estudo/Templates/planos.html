@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/planos.css">
+    <link rel="shortcut icon" href="/static/planos_img/logo1.ico" type="image/x-icon">
+    <title>Planos</title>
+</head>
+
+<body>
+    <div class="logo1">
+        <a href="/Inicio/index.html">
+            <img src="/static/planos_img/logo.png" alt="logo" height="100px">
+        </a>
+    </div>
+    <nav id="menu-h">
+        <ul>
+            <li><a href="{{url_for('inicio')}}">Inicio</a></li>
+            <li><a href="{{url_for('planos')}}">Planos</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="/Login">Entrar</a></li>
+        </ul>
+    </nav>
+    <div class="hss">
+        <h1 class="perfeito">O melhor preço de hospedagem de sites</h1>
+        <h4 class="perfeito">Seja qual for seu nível de experiência ou orçamento: temos produtos para todo mundo.</h4>
+        <h1 class="perfeito">Escolha um plano perfeito para você</h1>
+    </div>
+    <div class="plano-container">
+        <div class="plano">
+            <h2>Premium</h2>
+            <p>Perfeito para sites pessoais</p>
+            <span><del>R$45,99</del></span><span class="economize"><b>Economize 72%</b></span>
+            <div class="preco3">
+                <h3 class="precos2">R$<span>12,99</span>/mês*</h3>
+            </div>
+            <span class="cinza1">*Estimativa de gasto mensal durante 48 meses. O plano é pago de forma integral.</span>
+            <div class="bnt">
+                <button class="btn2"><a href="Pagina-De-Pagamento">Adicionar ao Carrinho</a></button>
+            </div>
+            <span class="cinza1">R$25,99/mês*ao renovar</span>
+            <br>
+            <hr class="hr3">
+            <h3>Principais recursos</h3>
+            <ul class="lista-customizada">
+                <li class="amarelo">Desempenho <b>aprimorado (em até 5x)</b> </li>
+                <li class="amarelo"><b>100</b> sites</li>
+                <li class="amarelo"><b>100 GB</b> de armazenamento SSD</li>
+                <li class="amarelo">Backups <b>semanais</b></li>
+                <li class="verde">SSL <b>ilimitados</b> grátis</li>
+                <li class="verde">Largura de banda <b>ilimitado</b></li>
+                <li class="verde">E-mail <b>grátis</b></li>
+                <li class="verde">Domínio <b>grátis</b> (preço R$ 49,99)</li>
+                <li class="vermelho">CDN <b>grátis</b></li>
+                <li class="vermelho">IP <b>dedicado</b></li>
+            </ul>
+        </div>
+        <div class="plano">
+            <span class="popular"><b>MAIS POPULAR</b></span>
+            <h2>Business</h2>
+            <p>Tenha mais potência e recursos</p>
+            <span><del>R$64,99</del></span><span class="economize1"><b>Economize 72%</b></span>
+            <div class="preco3">
+                <h3 class="precos2">R$<span>17,99</span>/mês*</h3>
+            </div>
+            <span class="cinza1">*Estimativa de gasto mensal durante 48 meses. O plano é pago de forma integral.</span>
+            <div class="bnt">
+                <button class="btn3"><a href="Pagina-De-Pagamento">Adicionar ao Carrinho</a></button>
+            </div>
+            <span class="cinza1">R$44,99/mês*ao renovar</span>
+            <hr>
+            <h3>Principais recursos</h3>
+            <ul class="lista-customizada">
+                <li class="verde">Desempenho <b>aprimorado (em até 5x)</b> </li>
+                <li class="amarelo"><b>100</b> sites</li>
+                <li class="verde"><b>200 GB</b> de armazenamento NVMe</li>
+                <li class="verde">Backups <b>diários</b> (preço R$ 65,88)</li>
+                <li class="verde">SSL <b>ilimitados</b> grátis</li>
+                <li class="verde">Largura de banda <b>ilimitado</b></li>
+                <li class="verde">E-mail <b>grátis</b></li>
+                <li class="verde">Domínio <b>grátis</b> (preço R$ 49,99)</li>
+                <li class="verde">CDN <b>grátis</b></li>
+                <li class="vermelho">IP dedicado</li>
+            </ul>
+        </div>
+        <div class="plano">
+            <h2>Plano Empresarial</h2>
+            <p>Aproveite o desempenho otimizado e os recursos dedicados</p>
+            <span><del>R$139,99</del></span><span class="economize"><b>Economize 64%</b></span>
+            <div class="preco3">
+                <h3 class="precos2">R$<span>49,99</span>/mês*</h3>
+            </div>
+            <span class="cinza1">*Estimativa de gasto mensal durante 48 meses. O plano é pago de forma integral.</span>
+            <div class="btn">
+                <button class="btn2"><a href="Pagina-De-Pagamento">Adicionar ao Carrinho</a></button>
+            </div>
+            <span class="cinza1">R$99,99/mês*ao renovar</span>
+            <hr>
+            <h3>Principais recursos</h3>
+            <ul class="lista-customizada">
+                <li class="verde">Desempenho <b>aprimorado (em até 5x)</b> </li>
+                <li class="verde"><b>300</b> sites</li>
+                <li class="verde"><b>200 GB</b> de armazenamento NVMe</li>
+                <li class="verde">Backups <b>diários</b> (preço R$ 65,88)</li>
+                <li class="verde">SSL <b>ilimitados</b> grátis</li>
+                <li class="verde">Largura de banda <b>ilimitado</b></li>
+                <li class="verde">E-mail <b>grátis</b></li>
+                <li class="verde">Domínio <b>grátis</b> (preço R$ 49,99)</li>
+                <li class="verde">CDN <b>grátis</b></li>
+                <li class="verde">IP <b>dedicado</b></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

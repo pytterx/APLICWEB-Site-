@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Inter:wght@100.. 900&family=Roboto:ital,wght@0,100; 0,300; 0,400; 0,500; 0,700; 0,900; 1,100; 1,300; 1,400; 1,500; 1,700; 1.900&display=swap');
+
+* {
+  font-family: 'inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.img-box {
+  width: 50%;
+  height: 50%;
+  background-image: linear-gradient(to bottom, #13072e, #3f2182);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-login {
+  display: flex;
+}
+
+.img-box img {
+  width: 98%;
+  height: 50%;
+}
+
+.container-pay {
+  position: relative;
+  left: 180px;
+}
+
+.payments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  position: relative;
+  top: -40px;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(10, 10, 10, 0.8);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.payments,
+label[type=text] {
+  position: relative;
+  bottom: -150px;
+}
+
+.payments input[type=text] {
+  box-sizing: border-box;
+  height: 50px;
+  width: 350px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+
+.btn2 {
+  position: relative;
+  top: -120px;
+  border: 1px solid;
+  height: 50px;
+  width: 350px;
+  font-size: 16px;
+  background-color: #8b3ffc;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mescvc {
+  position: relative;
+  top: 140px;
+}
+
+.mescvc input {
+  height: 50px;
+  width: 80px;
+  margin-right: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  font-size: 12px;
+}
+
+
+.numbercard,
+.NameCard,
+.mescard,
+.cvccard {
+  background-color: #f5f5f5;
+}
+
+.mescard,
+.cvccard {
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+
+.btn2::before {
+  font-family: "Font-Awesome";
+  margin-right: 10px;
+}
+
+.input-with-image {
+  position: relative;
+}
+
+.input-with-image input {
+  padding-right: 50px;
+}
+
+.input-with-image img {
+  position: absolute;
+  top: 31%;
+  right: 360px;
+  transform: translateY(-50%);
+  width: 35px;
+  height: auto;
+  opacity: 0.5;
+}
+
+.input-with-image1 {
+  position: relative;
+  display: inline-block;
+}
+
+.input-with-image1 input {
+  padding-right: 20px;
+}
+
+.input-with-image1 img {
+  position: absolute;
+  top: 45%;
+  right: 110px;
+  transform: translateY(-50%);
+  width: 35px;
+  height: auto;
+  opacity: 0.5;
+}
+
+.input-with-image3 {
+  position: relative;
+  display: inline-block;
+}
+
+.input-with-image3 input {
+  padding-right: 20px;
+}
+
+.input-with-image3 img {
+  position: absolute;
+  top: 31%;
+  right: 30px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: auto;
+  opacity: 0.5;
+}
+
+.tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 10px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s, visibility 0.3s;
+  white-space: nowrap;
+  transition-delay: 0.3s;
+}
+
+.input-with-image3:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}

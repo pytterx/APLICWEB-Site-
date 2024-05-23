@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Pagamento</title>
+  <link rel="stylesheet" href="/static/pagamento.css">
+</head>
+
+<body>
+  <div class="container-login">
+    <div class="img-box">
+      <img src="/static/Pagpagamento_img/card.png">
+    </div>
+    <form action="">
+      <div class="container-pay">
+        <div class="payments">
+          <div class="title">Pagamento</div>
+        </div>
+        <div class="payments">
+          <div class="input-with-image">
+            <label for="numbercard"><input type="text" id="numbercard" name="numbercard"
+                placeholder="Ex: 5555 xxxx xxxx xxxx" maxlength="19"></label>
+            <img src="/static/Pagpagamento_img/credit-card (1).png" alt="Mini Cartão">
+          </div>
+          <div class="input-with-image">
+            <label for="NameCard"><input type="text" id="NameCard" name="NameCard" placeholder="Nome Do Titular"
+                maxlength="24"></label>
+            <img src="static/Pagpagamento_img/credit-card.png" alt="Mini Cartão">
+          </div>
+        </div>
+        <div class="mescvc">
+          <div class="input-with-image1">
+            <label for="mescard"><input type="text" id="mescard" name="mescard" placeholder="MM/YY" required
+                maxlength="5"></label>
+            <img src="/static/Pagpagamento_img/payment.png" alt="Mini Cartão" class="input-with-image2">
+          </div>
+          <div class="input-with-image3">
+            <label for="cvccard"><input type="text" id="cvccard" name="cvccard" placeholder="CVC" required
+                maxlength="3"></label>
+            <div class="tooltip">Este é o código de segurança do seu cartão.</div>
+            <img src="/static/Pagpagamento_img/cvv.png" alt="Mini Cartão" class="input-with-image4">
+          </div>
+          <div class="payments">
+            <button class="btn2">Confirmar</button>
+          </div>
+        </div>
+      </div>
+  </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>

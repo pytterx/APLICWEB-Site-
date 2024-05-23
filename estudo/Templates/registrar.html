@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/registrar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="/static/Registra_logo.png" type="image/x-icon">
+    <title>registrar</title>
+</head>
+
+<body>
+    <div class="logo1">
+        <a href="/Inicio/index.html">
+            <img src="/static/logo.png" alt="logo" height="100px">
+        </a>
+    </div>
+    <div class="container">
+        <form action="" method="post">
+            <div class="registrar">
+            <h1>Registra-se</h1>
+            <div class="socias1">
+                <img src="/static/login_img/google.png" alt="google" class="google"> <br>
+                <img src="/static/login_img/facebook.png" alt="facebook" class="facebook"> <br>
+                <img src="/static/login_img/github.png" alt="github" class="github">
+            </div>
+            <div class="horizontal-rule">
+                <hr class="hr1">
+                <hr class="hr2"><span style="color: white;">Ou</span>
+            </div>
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Nome"> <br>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="E-mail"> <br>
+            <label for="senha"></label>
+            <input type="password" id="senha" name="senha" placeholder="Senha">
+            <span id="olho" class="olho" onclick="mostrarSenha()">👁️</span>
+        </form>
+        <div class="btn3">
+            <button class="btn4">Registra-se</button>
+        </div>
+        <h4 class="naofez">Já é cadastrado?<a href="/Login"> Faça login!</a></h4>
+    </div>
+</div>
+</body>
+
+</html>
